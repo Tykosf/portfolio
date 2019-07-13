@@ -13,9 +13,9 @@ class Projects extends Component {
     
 
     toggleCategories(){   
-        const ReactItems = CardsData[0].map(item => <MyCard key ={item.id} item={item}/>)
-        const CsItems =  CardsData[1].map(item => <MyCard key ={item.id} item={item}/>)
-        const NodeItems = CardsData[2].map(item => <MyCard key ={item.id} item={item}/>)
+        const ReactItems = CardsData[0].map(item => <MyCard key ={item.id} item={item}/>);
+        const CsItems =  CardsData[1].map(item => <MyCard key ={item.id} item={item}/>);
+        const NodeItems = CardsData[2].map(item => <MyCard key ={item.id} item={item}/>);
         switch(this.state.activeTab){
             case 0: return(<div className="projects-grid">{ReactItems}</div>);
             case 1: return(<div className="projects-grid">{CsItems}</div>);

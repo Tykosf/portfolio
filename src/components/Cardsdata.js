@@ -40,10 +40,11 @@ const CardsData = [
     [
         {
             id: 1,
-            title: "Fitness project",
-            text: "This is Fitness project that i created to practice in OOP. Also that project contains unit tests which i wrote first.",
-            imgUrl: "http://www.codekul.com/img/images/logo_chash.png",
+            title: "Coming soon...(WMS)",
+            text: "Buttons will be active when the project is completed and published in github.",
+            imgUrl: require("../images/wms.png"),
             viewCodeUrl: "",
+            disabled: true,
             demo: ""
         }   
     ],
@@ -52,17 +53,18 @@ const CardsData = [
         {
             id: 1,
             title: "Suggestions",
-            text: "Some text about NodeJS project suggestions is here",
-            imgUrl: "http://chittagongit.com/download/56746",
-            viewCodeUrl: "",
-            demo: ""
+            text: "FrontEnd: HTML(pug),CSS; BackEnd: Express.",
+            imgUrl: require("../images/suggestions.png"),
+            viewCodeUrl: "https://github.com/Tykosf/suggestions",
+            demo: "https://github.com/Tykosf/suggestions"
         },
         {
             id: 2,
             title: "TelegramBot",
-            text: "This is my simple telegram bot for remote control mypc.",
-            imgUrl: "http://chittagongit.com/download/56746",
+            text: "This is my simple telegram bot for remote control mypc.(Working on a stable version). Coming soon...",
+            imgUrl: require("../images/telbot.jpg"),
             viewCodeUrl: "",
+            disabled: true,
             demo: ""
         }      
     ]
