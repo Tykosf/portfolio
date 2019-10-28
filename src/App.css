@@ -32,13 +32,21 @@ a.mdl-navigation__link:hover{
 
 .avatar-img{
   height: 225px;
+<<<<<<< HEAD
   padding-top: 10px;
+=======
+  padding-top: 5em;
+>>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
 }
 
 .mdl-card {
   margin-top: 10px !important;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
 .banner-text{
   background-color: rgb(36, 35, 35);
   opacity: .8;
@@ -88,6 +96,10 @@ a.resume {
   color: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
 .projects-grid{
   display: flex;
 }
@@ -136,6 +148,10 @@ footer p{
   font-weight: bold !important;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
 .mdl-layout__drawer-button{
   display: none !important;
 }
@@ -154,6 +170,7 @@ footer p{
   margin: 0 3px;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 1200px) { 
   .mdl-layout__header{
     display: flex !important;
@@ -205,6 +222,18 @@ footer p{
     font-size: 35px !important;
   }
 
+=======
+
+@media screen and (max-width: 1024px){
+  .mdl-layout__header{
+      display: flex !important;
+  }
+}
+
+
+@media screen and (max-width: 700px)
+{
+>>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
   .mdl-layout__header{
     display: none !important ;
   }
@@ -217,6 +246,12 @@ footer p{
   .card{
     margin-bottom: 10px !important;
   }
+<<<<<<< HEAD
+=======
+  .landing-grid{
+    position: relative;
+  }
+>>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
 
   .mdl-layout__header.mdl-layout__header--scroll.header-color{
     display: none;
@@ -230,34 +265,63 @@ footer p{
     color: goldenrod !important;
   }
 
+<<<<<<< HEAD
   .banner-text h1 {
     font-size: 35px;
   }
 
+=======
+>>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
   .mdl-navigation__link{
     color: #c31432 !important;
   }
 
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 576px){
+=======
+
+@media screen and (max-width: 645px){
+  .banner-text h1 {
+    font-size: 40px;
+  }
+
+  .social-links {
+    width: 210px;
+  }
+}
+
+@media screen and (max-width: 300px){
+>>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
   img {
     display: none;
   }
   .social-links {
+<<<<<<< HEAD
     width: inherit;
   }
 
  .banner-text h1 {
     font-size: 27px;
+=======
+    width: 150px;
+  }
+
+ .banner-text h1 {
+    font-size: 30px;
+>>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
   }
   .social-links a {
     width: 50px;
   }
+<<<<<<< HEAD
 
   .mdl-grid.landing-grid {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+=======
+>>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
 }
