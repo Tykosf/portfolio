@@ -2,127 +2,50 @@
   outline: none;
 }
 
-.header-color{
+.header-color {
   background: #c31432;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
  
 }
 
-.landing-grid{
+.mdl-layout {
+  position: relative;
+}
+
+.landing-grid {
   background: #dbd8d9;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   text-align: center;
 }
 
-.mdl-navigation__link{
+.mdl-navigation__link {
   font-weight: bold !important; 
   font-size: 16px !important;
 }
 
-a.mdl-navigation__link:hover{
+a.mdl-navigation__link:hover {
   color: yellow;  
 }
 
-.avatar-img{
-  height: 225px;
-<<<<<<< HEAD
-  padding-top: 10px;
-=======
-  padding-top: 5em;
->>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
-}
-
-.mdl-card {
-  margin-top: 10px !important;
-}
-
-<<<<<<< HEAD
-=======
-
->>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
-.banner-text{
-  background-color: rgb(36, 35, 35);
-  opacity: .8;
-  width: 75%;
-  margin: auto;
-  border-radius: 10px;
-}
-
-.banner-text h1{
-  font-size: 66px;
-  font-weight: bold;
-  color:white;
-}
-
-.banner-text hr{
-  border-top: 5px dotted white;
-  width: 50%;
-  margin: auto;
-}
-
-a.resume {
-  cursor: pointer;
-}
-
-.banner-text p{
-  color: white;
-  font-size: 20px;
-  padding: 1em;
-}
-
-.social-links{
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin: auto;
-}
-
-.social-links i{
-  color: white;
-  font-size: 5em;
-  padding: 5px;
-}
-
-.social-links i:hover{
-  color: #c31432;  /* fallback for old browsers */
-  color: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
-  color: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-<<<<<<< HEAD
-=======
-
->>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
-.projects-grid{
+.projects-grid {
   display: flex;
 }
 
-.mdl-button.mdl-js-button.mdl-button.mdl-js-button.mdl-button--colored{
-  font-weight: bold;
-  color: #0072CF;
-}
-
-.mdl-button.mdl-js-button.mdl-button.mdl-js-button.mdl-button--colored:hover{
-  color: #c31432;
-}
-
-#about h1{
+#about h1 {
   color: white;
 }
 
-#about{
+#about {
   display: flex;
   flex-direction: column;
 }
 
-#about p{
+#about p {
   color: white;
   word-break: normal;
   margin-left: 30%;
@@ -130,29 +53,26 @@ a.resume {
   font-size: 20px;
 }
 
-footer{
+footer {
  display: flex;
  justify-content: center;
  color: white;
  background: rgb(36, 35, 35);
  height: 100%;
 }
-footer p{
+
+footer p {
   padding-top: 15px;
   font-weight: bold;
   font-style: italic;
   font-size: 19px;
 }
 
-.mdl-tabs__tab{
+.mdl-tabs__tab {
   font-weight: bold !important;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
-.mdl-layout__drawer-button{
+.mdl-layout__drawer-button {
   display: none !important;
 }
 
@@ -160,168 +80,87 @@ footer p{
   flex-wrap: wrap;
 }
 
-.icons{
+.icons {
   color: white;
   word-spacing: 1px;
   margin-top: 50px;
 }
-.icons a{
+
+.icons a {
   color: white;
   margin: 0 3px;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 1200px) { 
-  .mdl-layout__header{
-    display: flex !important;
-  }
-  .mdl-grid.landing-grid{
-    position: relative;
-    height: 100% !important;
-  }
-  .avatar-img {
-    padding-top: 10px;
-  }
-
-  .banner-text h1 {
-    font-size: 57px;
-  }
-
+.mdl-layout, .mdl-grid.landing-grid {
+  height: 100%;
 }
 
-@media screen and (max-width: 992px){
-  .mdl-grid.landing-grid{
-    height: inherit !important;
+@media screen and (max-width: 1024px) {
+  .mdl-layout__header {
+    display: flex !important;
+  }
+  
+  .mdl-grid.landing-grid {
+    position: relative !important;
+    height: 100% !important;
   }
 
   .mdl-layout {
-    height: 100%;
+    height: unset !important;
   }
-  .banner-text h1 {
-    font-size: 45px !important;
-  }
-
 }
 
 @media screen and (max-width: 768px)
 {
-  .avatar-img {
-    padding-top: 20px;
-  }
-
   .mdl-grid.landing-grid {
     position: none !important;
     height: 100% !important;
   }
-
-  .banner-text{
-    width: 80%;
-  }
-
-  .banner-text h1 {
-    font-size: 35px !important;
-  }
-
-=======
-
-@media screen and (max-width: 1024px){
-  .mdl-layout__header{
-      display: flex !important;
-  }
 }
-
 
 @media screen and (max-width: 700px)
 {
->>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
-  .mdl-layout__header{
+  .mdl-layout__header {
     display: none !important ;
   }
+
   .mdl-layout-title {
     display: none !important;
   }
-  .projects-grid{ 
+
+  .projects-grid { 
     flex-direction: column;
   }
-  .card{
+  
+  .card {
     margin-bottom: 10px !important;
   }
-<<<<<<< HEAD
-=======
-  .landing-grid{
+
+  .landing-grid {
     position: relative;
   }
->>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
 
-  .mdl-layout__header.mdl-layout__header--scroll.header-color{
+  .mdl-layout__header.mdl-layout__header--scroll.header-color {
     display: none;
   }
-  .mdl-layout__drawer-button{
+  .mdl-layout__drawer-button {
     display: block !important;
     color: #0072CF !important;
   }
 
-  .mdl-layout__drawer-button:hover{
+  .mdl-layout__drawer-button:hover {
     color: goldenrod !important;
   }
 
-<<<<<<< HEAD
-  .banner-text h1 {
-    font-size: 35px;
-  }
-
-=======
->>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
-  .mdl-navigation__link{
+  .mdl-navigation__link {
     color: #c31432 !important;
   }
-
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 576px){
-=======
-
-@media screen and (max-width: 645px){
-  .banner-text h1 {
-    font-size: 40px;
-  }
-
-  .social-links {
-    width: 210px;
-  }
-}
-
-@media screen and (max-width: 300px){
->>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
-  img {
-    display: none;
-  }
-  .social-links {
-<<<<<<< HEAD
-    width: inherit;
-  }
-
- .banner-text h1 {
-    font-size: 27px;
-=======
-    width: 150px;
-  }
-
- .banner-text h1 {
-    font-size: 30px;
->>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
-  }
-  .social-links a {
-    width: 50px;
-  }
-<<<<<<< HEAD
-
+@media screen and (max-width: 300px) {
   .mdl-grid.landing-grid {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-=======
->>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
 }

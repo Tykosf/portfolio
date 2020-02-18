@@ -1,0 +1,25 @@
+.mdl-card {
+  margin-top: 10px !important;
+}
+
+.mdl-card__supporting-text {
+  text-overflow: ellipsis;
+}
+
+.mdl-button.mdl-js-button.mdl-button.mdl-js-button.mdl-button--colored {
+  font-weight: bold;
+  color: #0072CF;
+}
+
+.mdl-button.mdl-js-button.mdl-button.mdl-js-button.mdl-button--colored:hover {
+  color: #c31432;
+}
+
+.mdl-card__title {
+  height: 175px;
+  display: flex;
+}
+
+.mdl-card__title-text {
+  align-self: flex-end ;
+}

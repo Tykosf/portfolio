@@ -11,19 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-<<<<<<< HEAD
+
 
 #root, html, body {
-  height: 100%;
+  height: 100% !important;
 }
 
-.mdl-layout {
-  height: inherit;
+.mdl-layout__inner-container {
+  height: unset;
 }
-
-.mdl-grid.landing-grid{
-  height: 100%;
-  position: relative;
-}
-=======
->>>>>>> bdbf8632d6e35eb9669e112c2da24779e530a831
