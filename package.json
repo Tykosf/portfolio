@@ -2,6 +2,7 @@
   "name": "recipeapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://tykosf.github.io/portfolio",
   "dependencies": {
     "node-sass": "^4.13.1",
     "react": "^16.8.6",
@@ -15,7 +16,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "./node_modules/.bin/eslint --global require,exports,process,import,it:true --ext .jsx,.js ./src"
+    "lint": "./node_modules/.bin/eslint --global require,exports,process,import,it:true --ext .jsx,.js ./src",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
