@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://tykosf.github.io/portfolio",
   "dependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-mdl": "^1.11.0",
